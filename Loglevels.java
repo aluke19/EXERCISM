@@ -1,6 +1,10 @@
 package EXERCISM;
 
-public class Loglevels {
-    public static String message(String logLine);
+public class LogLevels {
+    public static String message (String LogLine){
+        //aqui vamos a trabajar con el string
 
+        return "";
+
+    }
 }
