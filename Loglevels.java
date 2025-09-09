@@ -2,7 +2,7 @@ package EXERCISM;
 
 public class LogLevels {
     public static String message(String logLine) {
-        return logLine.substring(logLine.indexOf(": ") +2).trim();
+        return logLine.substring(logLine.indexOf(": ") + 2).trim();
     }
 
     public static String logLevel(String logLine) {
