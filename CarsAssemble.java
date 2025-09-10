@@ -20,4 +20,8 @@ public class CarsAssemble {
         else 
         return 0;
     }
+
+    public static workingItemsPerMinute (int speed) {
+        return (int) (productionRatePerHour(speed) / 60);
+    }
 }
