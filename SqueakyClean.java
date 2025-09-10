@@ -8,7 +8,7 @@ public class SqueakyClean {
         for (int cont = 0; cont < identifier.length(); cont++) {
             char ch = identifier.charAt(cont);
 
-            // 1) espacios -> underscore
+            // 1) espacios -> barrabaja
             if (ch == ' ') {
                 out.append('_');
                 continue;
