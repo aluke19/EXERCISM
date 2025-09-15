@@ -1,25 +1,19 @@
 package EXERCISM;
 
-public class paraPruebas {
+public class paraPruebas
+public class CocheJuguete {
+        private int distanciaRecorrida;
+        private int bateriaPorcentaje;
 
-    public static void main(String[] args) {
-        coche micoche = new coche();
-        micoche.marca = "Audi";
-        micoche.arrancar();
-        coche.info(); // Llamada al metodo estatico
-    }
-
-    public static class coche {
-        String marca;
-
-        // normal (No static)
-        public void arrancar() {
-            System.out.println("El coche " + marca + " ha arrancado");
+        public static cocheJuguete comprarJuguete(){
+            return new  comprarJuguete;
         }
 
-        // Metodo estatico (static)
-        public static void info() {
-            System.out.println("Un coche tiene 4 ruedas");
+        public String displayDistance() {
+            return "Has andado " + distanciaRecorrida + "km.";
         }
-    }
+
+        public String displayBatery() {
+            return "Tienes " + bateriaPorcentaje + "% de bateria.";
+        }
 }
